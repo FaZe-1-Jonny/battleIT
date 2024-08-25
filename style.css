@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    padding-left: 179px;
+    padding-right: 179px;
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__chapters{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__chapter{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: white;
+opacity: 70%;
+padding-left:24px;
+padding-right: 24px;
+}
+.profile__names{
+    margin-right: 8px;
+}
+.profile__names .name{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: white;
+opacity: 50%;
+text-align: end;
+}
+.nav__profile{
+    display: flex;
+}
+main{
+    background-image: url(imgs/bg-image.png);
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    padding-bottom: 120px;
+}
+.main__title{
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 62px;
+text-align: left;
+color: white;
+margin-top: 190px;
+text-align: center;
+}
+.main__btn{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+color: white;
+background-color: rgba(123, 97, 255, 1);
+padding: 27px 56px;
+margin-top: 59px;
+border: none;
+border-radius: 12px;
+}
+.main__book{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 190px;
+    margin-left: 250px;
+    margin-right: 250px;
+background-color: white;
+}
+.for__book{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+.btn__image{
+    padding: 18px;
+    background-color: rgba(123, 97, 255, 1);
+    border: none;
+    margin-left: 34px;
+    border-radius: 12px;
+}
+
+.book__imgs{
+    padding-right: 18px;
+}
+.for__book{
+    padding: 8px 57px;
+    align-items: center;
+    display: flex;
+}
+.line{
+    width: 0;
+    height: 46px;
+    border: 1px solid rgba(229, 229, 229, 1);
+    margin-top: 15px;
+}
+.destionations{
+    margin-left: 149px;
+    margin-right: 149px;
+    
+}
+.container__title{
+font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+color: black;
+}
+.container__cards{
+margin-top: 64px;
+display: flex;
+    justify-content: space-between;
+}
+.card img{
+    border-radius: 24px;
+    width: 240px;
+    height: 220px;
+}
+.card__destination{
+    margin-top: 8px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: black;
+}
+.card__country{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: rgba(151, 151, 151, 1);
+}
+.hotels{
+    margin-left: 149px;
+    margin-right: 149px;
+}
+.hotels__title{
+font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+color: black;
+}
+
+.cards{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.hotel__card img{
+    width: 316px;
+    height: 380px;
+}
+.card__name{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+.container__section{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.section1 p{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color:rgba(151, 151, 151, 1);
+}
+.section1 img{
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+}
+.section2 img{
+    width: 88px;
+    height: 16px;
+}
